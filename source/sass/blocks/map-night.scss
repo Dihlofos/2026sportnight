@@ -1,0 +1,267 @@
+.map-night {
+  position: relative;
+
+  .container {
+    position: relative;
+    padding: 11.6rem 4.5rem 12.7rem;
+
+    @media (max-width: $tablet) {
+      padding: 3.6rem 4.5rem 5.7rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 3.7rem 1.6rem 5rem;
+    }
+  }
+
+  &__decor {
+    position: absolute;
+    top:-2px;
+    left:0;
+    z-index: -1;
+    user-select: none;
+    width: 100%;
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+
+  &__title {
+    margin: 0 0 10rem;
+
+    @media (max-width: $mobile) {
+      padding: 0 0.8rem;
+      margin: 0 0 5rem;
+    }
+  }
+
+  &__map-wrapper {
+    position: relative;
+    width: 76rem;
+    height: 60rem;
+    background-color: $black;
+    z-index: 7;
+    border: 1px solid $red;
+    border-radius: 30px;
+    padding: 2.6rem;
+    margin-top: -1rem;
+
+    @media (max-width: $mobile) {
+      width: 100%;
+      height: 37.6rem;
+    }
+  }
+
+  &__map {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__legend-wrapper {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      left: 0.63rem;
+      top: 0;
+      background-color: $white;
+    }
+
+    @media (max-width: $mobile) {
+      margin-left: -0.8rem;
+    }
+
+  }
+
+  &__legend {
+    position: relative;
+    padding-left: 3rem;
+    width: 36rem;
+    height: 60.3rem;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 15px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $red;
+      border: 3px solid transparent;
+      border-radius: 7px;
+      background-clip: content-box;
+    }
+
+    @media (max-width: $mobile) {
+      width: auto;
+      height: 42rem;
+      padding-left: 1.8rem;
+    }
+  }
+
+  &__map-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 4.2rem;
+
+    @media (max-width: $tablet) {
+      flex-direction: column;
+    }
+  }
+
+  &__legend-item {
+    position: relative;
+    width: 100%;
+    background: none;
+    border: none;
+    color: $white;
+    display: flex;
+    gap: 2.7rem;
+    text-align: left;
+    font-family: $mossport;
+    cursor: pointer;
+    margin: 0 0 5rem;
+    padding: 0 2.2rem;
+    &:not(:last-child) {
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -2.5rem;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $white;
+      }
+    }
+
+    &.is-active {
+      background-color: $red;
+      border-radius: 30px;
+      padding: 2.2rem 2.2rem 2rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 1.5rem 1.6rem;
+      gap: 2.5rem;
+    }
+  }
+
+  &__legend-items {
+    font-family: $gotham;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    padding-left: 2.4rem;
+    margin: 0;
+  }
+
+  &__legend-digit {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 3rem;
+
+    @media (max-width: $mobile) {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__legend-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin: 0 0 1.7rem;
+
+    .is-active & {
+      color: $white;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 2.4rem;
+      line-height: 1;
+      margin: 0 0 0.7rem;
+    }
+  }
+
+  &__marker {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: $mossport;
+    width: 3.7rem;
+    height: 4.5rem;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="37" height="45" viewBox="0 0 37 45" fill="none"><path d="M18.344 0.916992C28.2325 0.916992 36.2483 8.93381 36.2483 18.8223C36.2478 28.7108 18.344 44.5596 18.344 44.5596C18.2613 44.4863 0.440138 28.6878 0.439697 18.8223C0.439697 8.93384 8.45559 0.917052 18.344 0.916992Z" fill="%23EB3333"/></svg>');
+    background-size: contain;
+    cursor: pointer;
+    font-size: 2.9rem;
+
+    &.is-active {
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="37" height="44" viewBox="0 0 37 44" fill="none"><path d="M18.4084 0.136719C28.2969 0.136719 36.3127 8.15353 36.3127 18.042C36.3126 27.9172 18.4562 43.737 18.4084 43.7793C18.3157 43.6971 0.504335 27.9047 0.50415 18.042C0.50415 8.15355 8.52001 0.136749 18.4084 0.136719Z" fill="%233B3393"/></svg>');
+    }
+
+    @media (max-width: $mobile) {
+      width: 1.9rem;
+      height: 2.3rem;
+      font-size: 1.5rem;
+      padding-top: 0rem;
+    }
+
+
+  }
+
+  &__legend-more {
+    display: none;
+    font-size: 1.6rem;
+    margin-left: -3.1rem;
+    line-height: 1.1;
+    color: $white;
+    background-color: $orange;
+    padding: 0.6rem 1rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: $gotham;
+    border-radius: 30px;
+    margin-top: 1.7rem;
+
+    .is-active & {
+      display: inline-block;
+    }
+
+    @media (max-width: $mobile) {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  &__legend-pin {
+    display: flex;
+    align-items: center;
+    font-family: $gotham;
+    gap: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.1;
+
+    .is-active & {
+      color: $black;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 1.4rem;
+      gap: 1rem;
+
+    }
+
+
+  }
+
+}

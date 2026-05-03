@@ -1,0 +1,118 @@
+.hero {
+  position: relative;
+
+  .container {
+    position: relative;
+    z-index: 50;
+  }
+
+  &__bg {
+    position: absolute;
+    z-index: -1;
+    user-select: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 3.5rem 8rem 0;
+  }
+
+  &__titles {
+    max-width: 30.1rem;
+  }
+
+  &__bullits {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 34rem;
+    padding: 0 0 1rem;
+  }
+
+  &__bullit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.8rem;
+    text-align: right;
+    min-width: 27rem;
+
+    span {
+      font-family: $mossport;
+      font-size: 3rem;
+      line-height: 1.101;
+      text-transform: uppercase;
+    }
+
+    &:not(:last-child) {
+      margin: 0 0 2.3rem;
+    }
+  }
+
+  &__title {
+    font-size: 7rem;
+    line-height: 1.1;
+    font-family: $mossport;
+    text-transform: uppercase;
+    margin: 0 0 2.3rem;
+    font-size: 7.4rem;
+    line-height: 0.95;
+  }
+
+  &__label {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: $mossport;
+    color: $white;
+    background-color: $orange;
+    border-radius: 30px;
+    padding: 1rem 1.6rem;
+    margin-top: 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+
+  &__main-decor {
+    width: 40rem;
+    height: 68rem;
+    position: relative;
+    margin-left: 2rem;
+    margin-right: 2.3rem;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      max-width: unset;
+    }
+  }
+
+  &__decor {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    z-index: 0;
+    top: 0;
+
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+
+  }
+
+}

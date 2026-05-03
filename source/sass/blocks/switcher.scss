@@ -1,0 +1,67 @@
+.switcher {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 6;
+
+  &--big {
+    gap: 3.8rem;
+
+    @media (max-width: $tablet) {
+      gap: 2rem;
+    }
+
+    @media (max-width: $mobile) {
+      gap: 0.5rem;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    line-height: 0.9;
+    color: $white;
+    border: 2px solid $red;
+    text-decoration: none;
+    background-color: $red;
+    transition: all 0.2s ease-in;
+    width: 6.5rem;
+    height: 2.7rem;
+
+    @media (max-width: $tablet) {
+      font-size: 3.6rem;
+      line-height: 1;
+      width: 7.7rem;
+      height: 4.3rem;
+      text-transform: uppercase;
+      font-family: $mossport;
+    }
+
+    &--purple {
+      background-color: $purple;
+      color: $white;
+      border-color: $purple;
+
+      &:hover {
+        background-color: $purple;
+        color: $white;
+      }
+    }
+
+    &--white {
+      color: $white;
+      border-color: $white;
+      background: transparent;
+
+      &:hover {
+        background-color: $red;
+        color: $white;
+        border-color: $red;
+      }
+    }
+  }
+}
