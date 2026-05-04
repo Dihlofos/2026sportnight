@@ -27,17 +27,23 @@
     }
   }
 
+  &__decor-left {
+    overflow: hidden;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+
+    img {
+      position: relative;
+      top: 15rem;
+    }
+  }
 
   &__decor {
     position: absolute;
-    left: 0;
-    top: -99rem;
-
-    &--right {
-      left: auto;
-      right: -15rem;
-      top: -162rem;
-    }
+    left: auto;
+    right: -0;
+    bottom: 0rem;
 
   }
 
