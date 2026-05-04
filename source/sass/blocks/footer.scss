@@ -31,11 +31,12 @@
   &__decor {
     position: absolute;
     left: 0;
-    top: -91rem;
+    top: -99rem;
 
     &--right {
       left: auto;
-      right: 0;
+      right: -15rem;
+      top: -162rem;
     }
 
   }

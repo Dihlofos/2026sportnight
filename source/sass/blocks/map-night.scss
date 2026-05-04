@@ -16,11 +16,17 @@
 
   &__decor {
     position: absolute;
-    top:-2px;
+    top: -45rem;
     left:0;
     z-index: -1;
     user-select: none;
-    width: 100%;
+    max-width: unset;
+
+    &--right {
+      top: -81rem;
+      left: auto;
+      right: -0;
+    }
 
     @media (max-width: $tablet) {
       display: none;
