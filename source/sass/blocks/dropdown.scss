@@ -24,7 +24,10 @@
       .open & {
         transform: rotate(180deg);
       }
+    }
 
+    @media (max-width: $tablet) {
+      font-size: 2rem;
     }
   }
 

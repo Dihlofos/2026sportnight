@@ -332,12 +332,13 @@
     }
     const vw = window.innerWidth;
     const wrapper = slider.querySelector(".swiper-wrapper");
+    const spaceBetween = vw < 1025 ? 16 : 41;
 
-    if (wrapper.childNodes.length > 3 && vw > 1024) {
+    if (wrapper.childNodes.length > 3 && vw >= 768) {
       peopleSlider = new Swiper(`.js-people-slider`, {
         // Optional parameters
         slidesPerView: 3,
-        spaceBetween: 41,
+        spaceBetween,
         initialSlide: 0,
         draggable: false,
         pagination: false,

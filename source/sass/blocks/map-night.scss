@@ -6,7 +6,7 @@
     padding: 11.6rem 4.5rem 12.7rem;
 
     @media (max-width: $tablet) {
-      padding: 3.6rem 4.5rem 5.7rem;
+      padding: 3.6rem 2.4rem 5.7rem;
     }
 
     @media (max-width: $mobile) {
@@ -26,6 +26,10 @@
       top: -81rem;
       left: auto;
       right: -0;
+
+      @media (max-width: $laptop) {
+        right: -22rem;
+      }
     }
 
     @media (max-width: $tablet) {
@@ -52,6 +56,12 @@
     border-radius: 30px;
     padding: 2.6rem;
     margin-top: -1rem;
+
+    @media (max-width: $tablet) {
+      width: auto;
+      flex-grow: 1;
+      padding: 1rem;
+    }
 
     @media (max-width: $mobile) {
       width: 100%;
@@ -107,6 +117,11 @@
       background-clip: content-box;
     }
 
+    @media (max-width: $tablet) {
+      width: 27rem;
+      padding-left: 1rem;
+    }
+
     @media (max-width: $mobile) {
       width: auto;
       height: 42rem;
@@ -120,7 +135,12 @@
     gap: 4.2rem;
 
     @media (max-width: $tablet) {
+      gap: 1rem;
+
+    }
+    @media (max-width: $mobile) {
       flex-direction: column;
+      gap: 4rem;
     }
   }
 
@@ -153,6 +173,11 @@
       background-color: $red;
       border-radius: 30px;
       padding: 2.2rem 2.2rem 2rem;
+    }
+
+    @media (max-width: $tablet) {
+      padding: 0 1.2rem;
+      gap: 1.5rem;
     }
 
     @media (max-width: $mobile) {

@@ -2,12 +2,24 @@
   position: relative;
   padding: 11.9rem 0 10rem;
 
+  @media (max-width: $tablet) {
+    padding: 11.9rem 0 0;
+  }
+
   &__decor {
     position: absolute;
     top: 10rem;
     right: 15.5rem;
     z-index: -1;
     user-select: none;
+
+    @media (max-width: 1750px) {
+      right:-10rem;
+    }
+
+    @media (max-width: $laptop) {
+      right: -32rem;
+    }
   }
 
   &__decor-left {
@@ -110,6 +122,15 @@
       display: grid;
     }
 
+    @media (max-width: $tablet) {
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      &--1 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
     &--slider {
       align-items: center;
       gap: 2.4rem;
@@ -117,6 +138,34 @@
 
       .is-item-active & {
         display: flex;
+      }
+
+      @media (max-width: $tablet) {
+        padding: 3.4rem 0 0;
+        gap: 1rem;
+      }
+
+      @media (max-width: $mobile) {
+        .locations__card {
+          width: 20rem
+        }
+      }
+    }
+
+    @media (max-width: $mobile) {
+      position: relative;
+      margin: 0 -1.6rem;
+      padding: 2rem 1.6rem 0;
+      overflow-x: auto;
+      overflow-y: visible;
+      flex-wrap: nowrap;
+      grid-template-columns: repeat(4, 1fr);
+
+      &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+        display: none;
       }
     }
   }
@@ -141,6 +190,10 @@
         display: block;
       }
     }
+
+    @media (max-width: $tablet) {
+      padding: 1.8rem;
+    }
   }
 
   &__no-register {
@@ -159,6 +212,10 @@
     line-height: 1.01;
     margin: 0 0 1.5rem;
     text-align: center;
+
+    @media (max-width: $tablet) {
+      font-size: 2.4rem;
+    }
   }
 
   &__card-text {
@@ -174,6 +231,10 @@
     gap: 0.8rem;
     width: 20.7rem;
     margin: 0 auto;
+
+    @media (max-width: $tablet) {
+      width: 17.8rem;
+    }
   }
 
   &__card-time {
@@ -219,6 +280,11 @@
 
   &__slider-arrow {
     flex-shrink: 0;
+
+    @media (max-width: $tablet) {
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   &__slider-wrapper {

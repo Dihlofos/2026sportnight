@@ -36,34 +36,24 @@
     img {
       position: relative;
       top: 15rem;
+
+      @media (max-width: $laptop) {
+        left: -13rem;
+      }
     }
   }
 
   &__decor {
     position: absolute;
     left: auto;
-    right: -0;
-    bottom: 0rem;
+    right: 0;
+    bottom: 0;
 
-  }
-
-  &__grey {
-    position: absolute;
-    top: 0;
-    right: -583.1%;
-    width: 600%;
-    height: 100%;
-    background-color: $grey;
-    z-index: 2;
-
-    @media(max-width: $mobile) {
-      width: 7.3rem;
-      height: 100%;
-      right: 0;
-      z-index: 1;
+    @media (max-width: $laptop) {
+      right: -8rem;
     }
-  }
 
+  }
 
   &__logos {
     position: absolute;
@@ -139,13 +129,23 @@
     margin-top: 0.5rem;
     font-size: 5.7rem;
     line-height: 0.95;
+
+    @media (max-width: $tablet) {
+      font-size: 4.7rem;
+      margin: 0 0 4rem;
+    }
   }
+
   &__mini-decor {
     position: relative;
     display: block;
     margin-top: -7.5rem;
     margin-bottom: 13.7rem;
     right: -5rem;
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 
   &__info {
@@ -213,6 +213,10 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: $tablet) {
+      gap: 4rem;
+    }
   }
 
   &__underground {

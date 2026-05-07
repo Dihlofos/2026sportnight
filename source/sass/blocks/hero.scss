@@ -20,6 +20,10 @@
     justify-content: center;
     align-items: center;
     padding: 8rem 3.5rem 8rem 0;
+
+    @media (max-width: $tablet) {
+      padding: 0;
+    }
   }
 
   &__titles {
@@ -53,6 +57,16 @@
     &:not(:last-child) {
       margin: 0 0 2.3rem;
     }
+
+    @media (max-width: $tablet) {
+      span {
+        font-size: 2.4rem;
+      }
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
   }
 
   &__title {
@@ -63,6 +77,10 @@
     margin: 0 0 2.3rem;
     font-size: 7.4rem;
     line-height: 0.95;
+
+    @media (max-width: $tablet) {
+      font-size: 5.4rem;
+    }
   }
 
   &__label {
@@ -95,7 +113,13 @@
       transform: translate(-50%, -50%);
       object-fit: cover;
       max-width: unset;
+
+      @media (max-width: $laptop ) {
+        max-width: 182%;
+      }
     }
+
+
   }
 
   &__decor {
