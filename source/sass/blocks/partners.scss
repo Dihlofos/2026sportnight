@@ -1,6 +1,10 @@
 .partners {
   padding: 9.8rem 0 10rem;
 
+  @media (max-width: $mobile) {
+    padding: 4.8rem 0 10rem;
+  }
+
   &__titile {
     margin: 0 0 11rem;
   }
@@ -25,12 +29,21 @@
       top: 8.8rem;
       width: 57%;
     }
+
+    @media (max-width: $mobile) {
+      top: 7.8rem;
+      width: 34rem;
+    }
   }
 
   &__logos {
     display: flex;
     justify-content: flex-start;
     gap: 7rem;
+
+    @media (max-width: $mobile) {
+      gap: 2rem;
+    }
   }
 
 }

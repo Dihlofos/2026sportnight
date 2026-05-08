@@ -28,6 +28,12 @@
 
     @media (max-width: $tablet) {
       font-size: 2rem;
+
+      &:hover {
+        color: $white;
+        background-color: $purple;
+
+      }
     }
   }
 
@@ -35,9 +41,9 @@
     list-style: none;
     padding: 3rem 0.8rem 1.5rem;
     margin: 0;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 30px;
     background-color: $purple;
+    overflow: hidden;
 
     &--small {
       .dropdown__link {
@@ -48,6 +54,12 @@
 
     @media(max-width: $tablet) {
       padding: 3rem 0 1.5rem;
+    }
+
+    @media(max-width: $mobile) {
+      background-color: $orange;
+      padding: 0.5rem 0 3.5rem;
+      border-radius: 15px;
     }
 
 
@@ -83,6 +95,10 @@
       font-weight: 700;
       background-color: $red;
       color: $white;
+
+      @media (max-width: $mobile) {
+        background-color: $black;
+      }
     }
   };
 
@@ -94,8 +110,7 @@
     overflow: hidden;
     max-height: 4rem;
     display: none;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 30px;
 
     .dropdown.open & {
       overflow: visible;
@@ -107,8 +122,10 @@
     }
 
     @media (max-width: $mobile) {
-      top: 15px;
-      max-height: 25px;
+      bottom: 0;
+      top: auto;
+      background-color: $red;
+      border-radius: 15px;
     }
 
     .dropdown.open & {

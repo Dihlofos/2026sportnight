@@ -6,6 +6,10 @@
     padding: 11.9rem 0 0;
   }
 
+  @media (max-width: $mobile) {
+    padding: 3.9rem 0 0;
+  }
+
   &__decor {
     position: absolute;
     top: 10rem;
@@ -48,6 +52,10 @@
     justify-content: center;
     gap: 1.6rem;
     margin: 0 0 3.8rem;
+
+    @media (max-width: $mobile) {
+      gap: 0.5rem;
+    }
   }
 
   &__thumb {
@@ -66,6 +74,13 @@
       background-color: $red;
       border-color: $red;
       cursor: auto;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 2rem;
+      padding: 1rem;
+      border-radius: 15px;
+      line-height: 1;
     }
   }
 
@@ -89,6 +104,12 @@
     gap: 3.2rem;
     padding-top: 3.9rem;
     cursor: pointer;
+
+    @media (max-width: $mobile) {
+      font-size: 4rem;
+      line-height: 1;
+      padding-top: 2rem;
+    }
   }
 
   &__tab-item {
@@ -97,6 +118,10 @@
 
     &:last-child {
       border-bottom: none;
+    }
+
+    @media (max-width: $mobile) {
+      padding-bottom: 2rem;
     }
   }
 
@@ -147,7 +172,7 @@
 
       @media (max-width: $mobile) {
         .locations__card {
-          width: 20rem
+          width: 27rem
         }
       }
     }
@@ -166,6 +191,14 @@
         width: 0;
         height: 0;
         display: none;
+      }
+
+      .is-item-active & {
+        display: flex;
+      }
+
+      &--slider {
+        padding: 3.4rem 0 0;
       }
     }
   }
@@ -255,6 +288,10 @@
 
   &__card-image {
     margin: 0 0 1.8rem;
+
+    @media (max-width: $mobile) {
+      width: 100%;
+    }
   }
 
   &__card-link {
@@ -276,6 +313,11 @@
     .is-item-active & {
       transform: rotate(0);
     }
+
+    @media (max-width: $mobile) {
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   &__slider-arrow {
@@ -285,11 +327,36 @@
       width: 3rem;
       height: 3rem;
     }
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
+  .swiper-container {
+    @media (max-width: $mobile) {
+      padding-right: 1.6rem;
+    }
   }
 
   &__slider-wrapper {
     // display: flex;
     // align-items: center;
+
+    @media (max-width: $mobile) {
+      display: flex;
+      gap: 1rem;
+      overflow: auto;
+      padding: 0 1.6rem;
+      margin-right: 1.6rem;
+
+      &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+        display: none;
+      }
+    }
   }
 
 }
