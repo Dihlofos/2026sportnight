@@ -55,6 +55,7 @@
 
     @media (max-width: $mobile) {
       gap: 0.5rem;
+      row-gap: 1.4rem;
     }
   }
 
@@ -66,7 +67,7 @@
     border-radius: 30px;
     padding: 1rem 1.6rem;
     background: transparent;
-    font-size: 3rem;
+    font-size: 2.4rem;
     line-height: 0.65;
     cursor: pointer;
 
@@ -76,9 +77,13 @@
       cursor: auto;
     }
 
-    @media (max-width: $mobile) {
+    @media(max-width: $tablet) {
+      flex-wrap: wrap;
       font-size: 2rem;
-      padding: 1rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 0.6rem;
       border-radius: 15px;
       line-height: 1;
     }
