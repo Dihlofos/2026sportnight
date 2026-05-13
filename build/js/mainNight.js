@@ -92,13 +92,13 @@
     {
       name: "Кудринская площадь",
       value: "kudrinskaya",
-      coords: [55.758762, 37.582924].reverse(),
+      coords: [55.758589, 37.583863].reverse(),
       content: ["Джампинг", "Полоса препятствий"],
     },
     {
       name: "Арбат",
       value: "arbat",
-      coords: [55.749491, 37.591512].reverse(),
+      coords: [55.74714, 37.583946].reverse(),
       content: [
         "Брейк-данс",
         "Рампа",
@@ -114,25 +114,25 @@
     {
       name: "Парк Горького",
       value: "gorky_park",
-      coords: [55.731465, 37.603427].reverse(),
+      coords: [55.733721, 37.601094].reverse(),
       content: ["Воркаут", "Паркур", "Гидрофлай", "Степ-аэробика"],
     },
     {
       name: "Леонтьевский переулок",
       value: "leontevsky",
-      coords: [55.759922, 37.604116].reverse(),
+      coords: [55.757628, 37.599936].reverse(),
       content: ["Стритбаскет"],
     },
     {
       name: "Климентовский переулок",
       value: "klimentovsky",
-      coords: [55.740791, 37.628541].reverse(),
+      coords: [55.741039, 37.626292].reverse(),
       content: ["Сайклинг", "TRX-тренировка", "Тренировка в гамаках"],
     },
     {
       name: "Ильинский сквер",
       value: "ilinsky",
-      coords: [55.755628, 37.63257].reverse(),
+      coords: [55.754603, 37.634044].reverse(),
       content: ["Живые шахматы", "Фан-встречи"],
     },
   ];
