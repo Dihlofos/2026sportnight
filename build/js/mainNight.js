@@ -233,6 +233,7 @@
       legendItemButton.setAttribute("data-scroll", "");
       legendItemButton.innerText = "Расписание";
 
+      // Не показываем пока ссылки, потом чтобы показать эт оусловие уберу
       if (location.outerLink) {
         legendItemButton.setAttribute("target", "_blank");
       }
@@ -241,7 +242,9 @@
       legendItem.appendChild(legendDigit);
       legendItemContent.appendChild(legendItemTitle);
       legendItemContent.appendChild(legendItemList);
-      legendItemContent.appendChild(legendItemButton);
+      if (!location.outerLink) {
+        legendItemContent.appendChild(legendItemButton);
+      }
 
       legendItem.appendChild(legendItemContent);
       legend.appendChild(legendItem);
