@@ -389,8 +389,8 @@
       document.querySelector(".js-map"),
       {
         location: {
-          center: [37.618435, 55.74713],
-          zoom: vw > 767 ? 12 : 12,
+          center: [37.618435, 55.69],
+          zoom: vw > 767 ? 11 : 10,
         },
         theme: "dark",
       },
