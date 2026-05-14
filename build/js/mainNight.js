@@ -286,11 +286,13 @@
   }
 
   function setTab(name) {
-    clearTabs();
     const targetTab = document.querySelector(`.js-tab[data-tab="${name}"]`);
     const targetTabContent = document.querySelector(
       `.js-tabs-content[data-tab="${name}"]`,
     );
+    if (!targetTab || !targetTabContent) return;
+    clearTabs();
+
     targetTabContent.classList.add("is-active");
     targetTab.classList.add("is-active");
   }
