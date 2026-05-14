@@ -303,7 +303,7 @@
       {
         location: {
           center: [37.618435, 55.74713],
-          zoom: vw > 767 ? 13 : 12,
+          zoom: vw > 767 ? 12 : 12,
         },
         theme: "dark",
       },
