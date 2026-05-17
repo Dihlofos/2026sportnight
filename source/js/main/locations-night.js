@@ -75,6 +75,7 @@
       coords: [55.758334, 37.619581].reverse(),
       content: ["Шахматы"],
       outerLink: "https://letochess.sport.mos.ru/",
+      noLink: true,
     },
     {
       name: "Музей-заповедник «царицыно»",
@@ -82,6 +83,7 @@
       coords: [55.619171, 37.67728].reverse(),
       content: ["Шахматы"],
       outerLink: "https://letochess.sport.mos.ru/",
+      noLink: true,
     },
     {
       name: "Самотечный сквер",
@@ -89,6 +91,7 @@
       coords: [55.775661, 37.619356].reverse(),
       content: ["Шахматы"],
       outerLink: "https://letochess.sport.mos.ru/",
+      noLink: true,
     },
   ];
 
@@ -155,7 +158,7 @@
       legendItem.appendChild(legendDigit);
       legendItemContent.appendChild(legendItemTitle);
       legendItemContent.appendChild(legendItemList);
-      if (!location.outerLink) {
+      if (!location.noLink) {
         legendItemContent.appendChild(legendItemButton);
       }
 
