@@ -16,22 +16,18 @@
   &__decor {
     position: absolute;
     top: -1.2rem;
-    right: -13.2rem;
+    right: -25.2rem;
     z-index: -1;
     user-select: none;
 
     @media (max-width: $laptop) {
-      top: 4.8rem;
+      top: 7.8rem;
       width: 62%;
     }
 
     @media (max-width: $tablet) {
-      top: 8.8rem;
-      width: 57%;
-    }
-
-    @media (max-width: $mobile) {
       top: 7.8rem;
+      right: -8.2rem;
       width: 34rem;
     }
   }
