@@ -160,7 +160,9 @@
       name: "Сквер у гостиницы «Метрополь»",
       value: "metropol",
       coords: [55.758334, 37.619581].reverse(),
-      content: ["Шахматы"],
+      content: [
+        "Выступление Юлианны Карауловой и партии с гроссмейстером Денисом Хисматуллиным",
+      ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
     },
@@ -168,7 +170,9 @@
       name: "Музей-заповедник «царицыно»",
       value: "tsaritsyno",
       coords: [55.619171, 37.67728].reverse(),
-      content: ["Шахматы"],
+      content: [
+        "Зажигательные хиты от группы «Мохито» и игра против Сергея Карякина",
+      ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
     },
@@ -176,7 +180,9 @@
       name: "Самотечный сквер",
       value: "samotechny",
       coords: [55.775661, 37.619356].reverse(),
-      content: ["Шахматы"],
+      content: [
+        "Выступление Юлианны Карауловой и партии с гроссмейстером Денисом Хисматуллиным",
+      ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
     },
