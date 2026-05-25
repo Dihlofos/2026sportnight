@@ -2,12 +2,6 @@
 (async function () {
   let peopleSlider = null;
   const locations = [
-    // {
-    //   name: "Кудринская площадь",
-    //   value: "kudrinskaya",
-    //   coords: [55.758589, 37.583863].reverse(),
-    //   content: ["Джампинг", "Полоса препятствий"],
-    // },
     {
       name: "Арбат",
       value: "arbat",
@@ -30,24 +24,30 @@
       coords: [55.733721, 37.601094].reverse(),
       content: ["Воркаут", "Паркур", "Гидрофлай", "Степ-аэробика"],
     },
-    // {
-    //   name: "Леонтьевский переулок",
-    //   value: "leontevsky",
-    //   coords: [55.757628, 37.599936].reverse(),
-    //   content: ["Стритбаскет"],
-    // },
-    // {
-    //   name: "Климентовский переулок",
-    //   value: "klimentovsky",
-    //   coords: [55.741039, 37.626292].reverse(),
-    //   content: ["Сайклинг", "TRX-тренировка", "Тренировка в гамаках"],
-    // },
-    // {
-    //   name: "Ильинский сквер",
-    //   value: "ilinsky",
-    //   coords: [55.754603, 37.634044].reverse(),
-    //   content: ["Живые шахматы", "Фан-встречи"],
-    // },
+    {
+      name: "Климентовский переулок",
+      value: "klimentovsky",
+      coords: [55.741039, 37.626292].reverse(),
+      content: ["Сайклинг", "TRX-тренировка", "Тренировка в гамаках"],
+    },
+    {
+      name: "Кудринская площадь",
+      value: "kudrinskaya",
+      coords: [55.758589, 37.583863].reverse(),
+      content: ["Джампинг", "Полоса препятствий"],
+    },
+    {
+      name: "Ильинский сквер",
+      value: "ilinsky",
+      coords: [55.754603, 37.634044].reverse(),
+      content: ["Живые шахматы", "Фан-встречи"],
+    },
+    {
+      name: "Леонтьевский переулок",
+      value: "leontevsky",
+      coords: [55.757628, 37.599936].reverse(),
+      content: ["Стритбаскет"],
+    },
     {
       name: "Римская",
       value: "rimskaya",
