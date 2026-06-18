@@ -156,36 +156,36 @@
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
     },
-    {
-      name: "Сквер у гостиницы «Метрополь»",
-      value: "metropol",
-      coords: [55.758334, 37.619581].reverse(),
-      content: [
-        "Выступление Юлианны Карауловой и партии с гроссмейстером Денисом Хисматуллиным",
-      ],
-      outerLink: "https://letochess.sport.mos.ru/",
-      noLink: true,
-    },
-    {
-      name: "Музей-заповедник «царицыно»",
-      value: "tsaritsyno",
-      coords: [55.619171, 37.67728].reverse(),
-      content: [
-        "Зажигательные хиты от группы «Мохито» и игра против Сергея Карякина",
-      ],
-      outerLink: "https://letochess.sport.mos.ru/",
-      noLink: true,
-    },
-    {
-      name: "Самотечный сквер",
-      value: "samotechny",
-      coords: [55.775661, 37.619356].reverse(),
-      content: [
-        "Певица Ольга Серябкина и сеанс одновременной игры с гроссмейстером Александром Морозевичем",
-      ],
-      outerLink: "https://letochess.sport.mos.ru/",
-      noLink: true,
-    },
+    // {
+    //   name: "Сквер у гостиницы «Метрополь»",
+    //   value: "metropol",
+    //   coords: [55.758334, 37.619581].reverse(),
+    //   content: [
+    //     "Выступление Юлианны Карауловой и партии с гроссмейстером Денисом Хисматуллиным",
+    //   ],
+    //   outerLink: "https://letochess.sport.mos.ru/",
+    //   noLink: true,
+    // },
+    // {
+    //   name: "Музей-заповедник «царицыно»",
+    //   value: "tsaritsyno",
+    //   coords: [55.619171, 37.67728].reverse(),
+    //   content: [
+    //     "Зажигательные хиты от группы «Мохито» и игра против Сергея Карякина",
+    //   ],
+    //   outerLink: "https://letochess.sport.mos.ru/",
+    //   noLink: true,
+    // },
+    // {
+    //   name: "Самотечный сквер",
+    //   value: "samotechny",
+    //   coords: [55.775661, 37.619356].reverse(),
+    //   content: [
+    //     "Певица Ольга Серябкина и сеанс одновременной игры с гроссмейстером Александром Морозевичем",
+    //   ],
+    //   outerLink: "https://letochess.sport.mos.ru/",
+    //   noLink: true,
+    // },
   ];
 
   const tabs = document.querySelectorAll(".js-tab");
@@ -403,8 +403,8 @@
       document.querySelector(".js-map"),
       {
         location: {
-          center: [37.618435, 55.69],
-          zoom: vw > 767 ? 11 : 10,
+          center: [37.625, 55.742],
+          zoom: vw > 767 ? 13 : 10,
         },
         theme: "dark",
       },
