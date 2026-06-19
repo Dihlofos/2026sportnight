@@ -404,7 +404,7 @@
       {
         location: {
           center: [37.625, 55.742],
-          zoom: vw > 767 ? 13 : 10,
+          zoom: vw > 767 ? 13 : 12,
         },
         theme: "dark",
       },
