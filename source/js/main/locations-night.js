@@ -74,7 +74,7 @@
       value: "metropol",
       coords: [55.758334, 37.619581].reverse(),
       content: [
-
+        'Шахматные скверы: Выступление группы 5st Family и партии с гроссмейстером Иваном Поповым'
       ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
@@ -84,7 +84,7 @@
       value: "tsaritsyno",
       coords: [55.619171, 37.67728].reverse(),
       content: [
-
+        'Шахматные скверы: Зажигательные хиты от кавер-группы «Двое» и игра против Александра Морозевича'
       ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
@@ -94,7 +94,7 @@
       value: "samotechny",
       coords: [55.775661, 37.619356].reverse(),
       content: [
-
+        'Шахматные скверы: Лучшие песни от группы «Фабрика» и сеанс одновременной игры от Сергея Карякина'
       ],
       outerLink: "https://letochess.sport.mos.ru/",
       noLink: true,
