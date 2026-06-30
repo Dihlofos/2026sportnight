@@ -141,7 +141,7 @@
       coords: [55.74569, 37.674083].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
-      outerLinkText: "Записаться",
+      outerLinkText: "Зарегистрироваться",
       alwaysShowButton: true
     },
     {
@@ -150,7 +150,7 @@
       coords: [55.740686, 37.625245].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
-      outerLinkText: "Записаться",
+      outerLinkText: "Зарегистрироваться",
       alwaysShowButton: true
     },
     {
@@ -159,7 +159,7 @@
       coords: [55.760446, 37.581104].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
-      outerLinkText: "Записаться",
+      outerLinkText: "Зарегистрироваться",
       alwaysShowButton: true
     },
     {
