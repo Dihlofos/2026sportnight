@@ -265,7 +265,8 @@
     border-radius: 30px;
     margin-top: 1.7rem;
 
-    .is-active & {
+    .is-active &,
+    .always-show & {
       display: inline-block;
     }
 

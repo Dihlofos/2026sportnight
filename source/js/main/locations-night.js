@@ -54,6 +54,8 @@
       coords: [55.74569, 37.674083].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
+      outerLinkText: "Записаться",
+      alwaysShowButton: true
     },
     {
       name: "Третьяковская",
@@ -61,6 +63,8 @@
       coords: [55.740686, 37.625245].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
+      outerLinkText: "Записаться",
+      alwaysShowButton: true
     },
     {
       name: "Баррикадная",
@@ -68,6 +72,8 @@
       coords: [55.760446, 37.581104].reverse(),
       content: ["Падел"],
       outerLink: "https://outdoor.sport.mos.ru/",
+      outerLinkText: "Записаться",
+      alwaysShowButton: true
     },
     {
       name: "Сквер у гостиницы «Метрополь»",
@@ -124,6 +130,10 @@
       legendItem.dataset.thumbName = location.value;
       legendItem.dir = "ltr";
 
+      if (location.alwaysShowButton) {
+        legendItem.classList.add("always-show");
+      }
+
       // Prepare Digit
       const legendDigit = document.createElement("div");
       legendDigit.className = "map-night__legend-digit";
@@ -150,10 +160,11 @@
       //Prepase button
       const legendItemButton = document.createElement("a");
       legendItemButton.className = "map-night__legend-more js-legend-link";
+
       legendItemButton.href = href;
       legendItemButton.dataset.thumbName = location.value;
       legendItemButton.setAttribute("data-scroll", "");
-      legendItemButton.innerText = "Расписание";
+      legendItemButton.innerText = location.outerLinkText ? location.outerLinkText : "Расписание";
 
       // Не показываем пока ссылки, потом чтобы показать эт оусловие уберу
       if (location.outerLink) {
