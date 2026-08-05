@@ -1,0 +1,146 @@
+.special {
+  position: relative;
+  padding-bottom: 13.8rem;
+
+  @media (max-width: $tablet) {
+    padding-bottom: 5rem;
+  }
+
+  &__title {
+    margin: 0 0 4.2rem;
+  }
+
+  &__decor-left {
+    position: absolute;
+    top: -78rem;
+    left: 0;
+    z-index: -1;
+    user-select: none;
+
+    @media (max-width: $tablet) {
+      top: -50rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    font-weight: 400;
+    max-width: 49.4rem;
+    margin: 0 0 6.4rem;
+
+    p {
+      margin: 0 0 1rem;
+    }
+  }
+
+  &__items {
+    display: flex;
+    gap: 2rem;
+    font-family: $mossport;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    line-height: 1.07;
+
+    @media (max-width: $tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 2.4rem;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 1.8rem;
+      gap: 1.4rem;
+    }
+  }
+
+  &__item {
+    padding: 2.8rem 2.4rem 2.4rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+    border-radius: 30px;
+    width: 27.5rem;
+
+    &:nth-child(odd) {
+      background: linear-gradient(90deg, #FF005E 0%, #0039B8 100.01%), #0039B8;
+    }
+
+    &:nth-child(even) {
+      background: linear-gradient(90deg, #0039B8 0%, #FF005E 100.01%), #FF005E;
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+
+    @media (max-width: $tablet) {
+      width: auto;
+      padding: 1.6rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 1.4rem;
+      border-radius: 20px;
+      gap: 1.4rem;
+      align-items: center;
+      svg {
+        width: 2rem;
+      }
+    }
+  }
+
+  &__image {
+    position: relative;
+    max-width: unset;
+    margin-top: -12rem;
+    z-index: -1;
+
+    @media (max-width: $mobile) {
+      width: 108%;
+      margin-top: 0;
+    }
+  }
+
+  &__link {
+    background-color: $pink;
+    border-radius: 40px;
+    padding: 1.5rem 3.3rem;
+    font-family: $mossport;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+    font-size: 3.6rem;
+    line-height: 1;
+
+    &:hover {
+      background-color: $purple;
+    }
+
+    @media (max-width: $tablet) {
+      font-size: 3rem;
+    }
+  }
+
+  &__logo {
+    width: auto;
+  }
+
+
+  &__footer {
+    display: flex;
+    gap: 4rem;
+    margin-top: -19.6rem;
+
+    @media (max-width: $tablet) {
+      margin-top: -2rem;
+    }
+
+    @media (max-width: $mobile) {
+      margin-top: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
