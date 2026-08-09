@@ -1,0 +1,65 @@
+.special-page {
+  padding: 6.5rem 0 6.8rem;
+
+  .container {
+    position: relative;
+  }
+  &__decor {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+
+    &--left {
+      left: -1rem;
+      top: -3rem;
+    }
+
+    &--right {
+      right: 0;
+      top: 20rem;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: -4.5rem;
+    right: -35rem;
+    z-index: -1;
+  }
+
+  &__title {
+    max-width: 76.1rem;
+    margin: 0 0 0.3rem;
+    font-size: 10rem;
+    line-height: 1.01;
+  }
+
+  &__subtitle {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    margin: 0 0 4.4rem;
+
+  }
+
+  &__text {
+    max-width: 56.1rem;
+    margin: 0 0 7.1rem;
+    line-height: 1.1;
+    p {
+      margin: 0;
+    }
+
+    p:not(:last-child) {
+      margin: 0 0 1.2rem;
+    }
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+    margin: 0 0 8.6rem;
+
+  }
+
+}

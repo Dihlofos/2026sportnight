@@ -1,0 +1,132 @@
+.special-cards {
+
+  &__card {
+    background-color: $blueVariant;
+    padding: 4.1rem 4.4rem;
+    border-radius: 30px;
+    margin: 0 0 2,9rem;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-family: $mossport;
+    font-size: 5.2rem;
+    line-height: 1.01;
+    margin: 0 0 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    gap: 0.8rem;
+    margin: 0 0 2.6rem;
+  }
+
+  &__metro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+  }
+
+  &__metro-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $orange;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__time {
+    display: inline-flex;
+    font-family: $mossport;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    padding: 1.4rem 2.4rem;
+    border: 1px solid $orange;
+    border-radius: 30px;
+  }
+
+  &__icon-data  {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  &__icon-data-text {
+    a {
+      display: block;
+      color: $orange;
+      font-size: 1.4rem;
+    }
+  }
+
+  &__invited {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7px);
+    border-radius: 60px;
+    padding: 1.6rem 3.5rem 1.6rem 2rem;
+  }
+
+  &__invited-text {
+    margin: 0 0 1rem;
+  }
+
+  &__invited-item {
+    font-size: 1.4rem;
+    color: $orange;
+  }
+
+  &__invited-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  &__avatar {
+    border-radius: 50%;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.2rem;
+  }
+
+  &__info-text {
+    max-width: 61.9rem;
+  }
+
+  &__link {
+    height: 5.8rem;
+    border-radius: 40px;
+    width: 33.4rem;
+
+    background-color: $red;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $red;
+    }
+  }
+}
