@@ -1,16 +1,49 @@
 .special-cards {
 
   &__card {
+    position: relative;
     background-color: $blueVariant;
     padding: 4.1rem 4.4rem;
     border-radius: 30px;
-    margin: 0 0 2,9rem;
+    margin: 0 0 2.9rem;
+    overflow: hidden;
+
+    &--dark-blue {
+      background-color: $purple;
+    }
+
+    &--red {
+      background-color: $red;
+
+      .special-cards__invited {
+        background: rgba(12, 14, 26, 0.15);
+      }
+    }
+  }
+
+  &__card-decor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+
+    &--right {
+      left: auto;
+      right: 0;
+    }
   }
 
   &__header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    z-index: 2;
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 2;
   }
 
   &__title {
@@ -43,7 +76,21 @@
     justify-content: center;
     border-radius: 50%;
     background-color: $orange;
+
+    &--grey {
+      background-color: #999999;
+    }
+
+    &--green {
+      background-color: #2DBE2C;
+    }
+
+    &--purple {
+      background-color: #800080;
+    }
   }
+
+
 
   &__info {
     display: flex;
@@ -127,6 +174,16 @@
     &:hover {
       background-color: $white;
       color: $red;
+    }
+
+    &--white {
+      background-color: $white;
+      color: $red;
+
+      &:hover {
+        background-color: $purple;
+        color: $white;
+      }
     }
   }
 }
