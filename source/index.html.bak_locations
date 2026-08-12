@@ -322,408 +322,344 @@
               <button class="locations__thumb js-tab" data-tab="gorky_park">Парк Горького</button>
               <button class="locations__thumb js-tab" data-tab="klimentovsky">Климентовский переулок</button>
               <button class="locations__thumb js-tab" data-tab="kudrinskaya">Кудринская площадь</button>
-              <!-- <button class="locations__thumb js-tab" data-tab="ilinsky">Ильинский сквер</button> -->
+              <button class="locations__thumb js-tab" data-tab="ilinsky">Ильинский сквер</button>
               <button class="locations__thumb js-tab" data-tab="leontevsky">Леонтьевский переулок</button>
 
             </div>
             <!--LOCATIONS WRAPPER-->
             <div class="locastions__tab-wrapper">
 
-              <!-- АРБАТ -->
+              <!-- Арбат -->
               <div class="locations__tab js-tabs-content is-active" data-tab="arbat">
+                <!--Брейк-данс-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>БРЕЙК-ДАНС</span>
+                    <span>Брейк-данс</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
                     <div class="locations__card locations__card--no-register">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Выступление: мальчики и девочки 12-15 лет 1х1</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Показательные выступления</div>
+                        <div class="locations__card-text">мальчики и девочки 10-15 лет 1х1</div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00–19:50</div>
+                        <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040797/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-класс по брейкингу 1х1</div>
+                        <div class="locations__card-title">Мастер- класс по брейкингу 1Х1</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:50–20:50</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__card-time">20:00–20:50</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040797/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-класс по брейкингу 3х3</div>
+                        <div class="locations__card-title">Мастер- класс по брейкингу 3Х3</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:50–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040797/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
                   </div>
                 </div>
-
+                <!--Рампа-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>РАМПА</span>
+                    <span>Рампа</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
                     <div class="locations__card locations__card--no-register">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Любительские турниры для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Любительские турниры</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–20:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040799/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-классы для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Мастер-классы</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:00–21:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040799/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
                         <div class="locations__card-title">Свободное катание</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:00–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040799/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
                   </div>
                 </div>
-
+                <!--Силовой экстрим-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>СИЛОВОЙ ЭКСТРИМ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register locations__card--bottom-static">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Любительские турниры для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">
-                        <p>19:00–20:00</p>
-                        <p>21:00–22:00</p>
-                        </div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-классы для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–21:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>НАСТОЛЬНЫЙ ХОККЕЙ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Турнир по настольному хоккею для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Свободная игра</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>НАСТОЛЬНЫЙ ФУТБОЛ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Турнир по настольному футболу</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Работают столы для свободной игры</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>ГИРЕВОЙ СПОРТ</span>
+                    <span>Силовой спорт</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
                     <div class="locations__card locations__card--no-register">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Проведение турниров среди любителей</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Любительские турниры</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040801/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Открытые мастер-классы</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Мастер-классы</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040801/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Любительские турниры для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Любительские турниры</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040801/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
                   </div>
                 </div>
-
+                <!--Армрестлинг-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>НАСТОЛЬНЫЙ ТЕННИС</span>
+                    <span>Армрестлинг</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
-                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
+                  <div class="locations__tab-content locations__tab-content--1 js-tab-item-content">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Турниры на выбывание среди всех возрастных категорий</div>
+                        <div class="locations__card-title">Спортивно-интерактивный режим</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Открытое занятие</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–21:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Свободная игра</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040803/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
                   </div>
                 </div>
-
+                <!--Настольный хоккей-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>ТАНЦЕВАЛЬНАЯ ТЕРАПИя</span>
+                    <span>Настольный хоккей</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
-                  <div class="locations__tab-content locations__tab-content--1 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
+                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">ТАНЦЕВАЛЬНая ТЕРАПИя</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__block-link dropdown js-dropdown">
-                          <button class="dropdown__trigger button js-dropdown-trigger">
-                            Посмотреть время
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
-                              <path d="M10.9209 1L5.96429 5.9958L1.00767 1" stroke="#ED951D" stroke-width="2.83925"/>
-                            </svg>
-                          </button>
-                          <div class="dropdown__content">
-                            <ul class="dropdown__list">
-                              <li class="dropdown__item">
-                                <a class="dropdown__link" target="_blank">
-                                  19:00–20:00
-                                </a>
-                              </li>
-                              <li class="dropdown__item">
-                                <a class="dropdown__link" target="_blank">
-                                  20:00–21:00
-                                </a>
-                              </li>
-                              <li class="dropdown__item">
-                                <a class="dropdown__link" target="_blank">
-                                  21:00–22:00
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>АРМРЕСТЛИНГ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Разминка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00–19:20</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Интерактив с цирковыми артистами</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:20–19:40</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-классы и спортивные активности для всех</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:40–20:30</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Турнир любителей</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:30–21:30</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Награждение</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:30–22:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>ТОЛКАНИЕ ЯДРА</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Разминка женщины</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Открытый турнир</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040804/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Свободная игра</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040804/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Настольный футбол-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Настольный футбол</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Открытый турнир</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040806/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Свободная игра</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040806/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Гиревой спорт-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Гиревой спорт</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Любительские турниры</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040807/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Мастер-классы</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040807/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Толкание ядра - женщины</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Любительские турниры</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:30</div>
+                        <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040807/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Настольный ТЕННИС -->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Настольный теннис</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Открытый турнир</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040808/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Разминка мужчины</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Открытое занятие </div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:30</div>
+                        <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040808/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Свободная игра</div>
+                        <div class="locations__card-text">Для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040808/" target="_blank">Регистрация</a>
+                        <div class="locations__no-register">Регистрация на месте</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Танцевальная терапия-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Танцевальная терапия</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Слот 1</div>
+                        <div class="locations__card-text">Прогулка с музыкой и танцами</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–20:00</div>
+                        <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027365/">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Толкание ядра - мужчины</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Слот 2</div>
+                        <div class="locations__card-text">Прогулка с музыкой и танцами</div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:00</div>
+                        <div class="locations__card-time">20:00–21:00</div>
+                        <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026990/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Слот 3</div>
+                        <div class="locations__card-text">Прогулка с музыкой и танцами</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:00–22:00</div>
+                        <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026915/">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
@@ -731,168 +667,51 @@
                 </div>
               </div>
 
-              <!-- ПАРК ГОРЬКОГО/МУЗЕОН -->
+              <!-- Парк Горького -->
               <div class="locations__tab js-tabs-content" data-tab="gorky_park">
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler js-item-with-slider">
-                    <span>ФАН-ВСТРЕЧИ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--slider js-tab-item-content">
-                    <div class="js-people-slider-prev locations__slider-arrow">
-                      <img src="img/night/arrow-left.svg" width="42" height="43"/>
-                    </div>
-                    <div class=" swiper-container js-people-slider">
-                      <div class="swiper-wrapper locations__slider-wrapper">
-                        <div class="swiper-slide locations__card">
-                          <div class="locations__card-top">
-                            <div class="locations__card-title">Евгения Медведева</div>
-                          </div>
-                          <div class="locations__card-bottom">
-                            <div class="locations__card-time">19:30–20:10</div>
-                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138915/">Регистрация</a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide locations__card">
-                          <div class="locations__card-top">
-                            <div class="locations__card-title">Кевин Кураньи</div>
-                          </div>
-                          <div class="locations__card-bottom">
-                            <div class="locations__card-time">20:10–20:50</div>
-                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138916/">Регистрация</a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide locations__card">
-                          <div class="locations__card-top">
-                            <div class="locations__card-title">Ривалдо</div>
-                          </div>
-                          <div class="locations__card-bottom">
-                            <div class="locations__card-time">20:50–21:30</div>
-                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138918/">Регистрация</a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide locations__card">
-                          <div class="locations__card-top">
-                            <div class="locations__card-title">Серж Горелый</div>
-                          </div>
-                          <div class="locations__card-bottom">
-                            <div class="locations__card-time">21:30–22:00</div>
-                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138925/">Регистрация</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="js-people-slider-next locations__slider-arrow">
-                      <img src="img/night/arrow-right.svg" width="42" height="43"/>
-                    </div>
-                  </div>
-                </div>
+               <!--СТЕП АЭРОБИКА-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>СТЕП-АЭРОБИКА</span>
+                    <span>Степ-аэробика</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
-                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                  <div class="locations__tab-content js-tab-item-content">
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">1 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 1</div>
+                        <div class="locations__card-text">Массовая тренировка с&nbsp;инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–19:50</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138907/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027010/">Регистрация</a>
                       </div>
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">2 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 2</div>
+                        <div class="locations__card-text">Массовая тренировка с&nbsp;инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:05–20:55</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138910/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026986/">Регистрация</a>
                       </div>
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">3 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 3</div>
+                        <div class="locations__card-text">Массовая тренировка с&nbsp;инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:10–22:00</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138912/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027036/">Регистрация</a>
                       </div>
                     </div>
                   </div>
                 </div>
-
+                <!--Гидрофлай-->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>ВОРКАУТ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register locations__card--bottom-static">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Любительские турниры для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">
-                        <p>19:00–20:00</p>
-                        <p>21:00–22:00</p>
-                        </div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-классы для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–21:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>ПАРКУР</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content locations__tab-content--2 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register locations__card--bottom-static">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Любительские турниры для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">
-                        <p>19:00–20:00</p>
-                        <p>21:00–22:00</p>
-                        </div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                    <div class="locations__card locations__card--no-register">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">Мастер-классы для всех желающих</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:00–21:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>ГИДРОФЛАЙ</span>
+                    <span>Гидрофлай</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
@@ -934,38 +753,120 @@
                     </div>
                     <div class="locations__card locations__card--no-register locations__card--bottom-static">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Катание на сапбордах и каноэ для всех желающих</div>
+                        <div class="locations__card-title">Катания на сапбордах и каноэ</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">
-                        <p>19:20–19:50</p>
-                        <p>20:10–21:00</p>
+                          <p>19:20–19:50</p>
+                          <p>20:10–21:00</p>
                         </div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__no-register">В порядке очереди</div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register locations__card--bottom-static">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Проведение заездов на радиоуправляемых лодках для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Заезды на радиоуправляемых лодках</div>
+                        <div class="locations__card-text">Для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">
-                        <p>21:00–21:20</p>
-                        <p>21:50–22:00</p>
+                          <p>21:00–21:20</p>
+                          <p>21:50–22:00</p>
                         </div>
+                        <div class="locations__no-register">В порядке очереди</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Воркаут-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Воркаут</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Турниры</div>
+                        <div class="locations__card-text">Любительские турниры для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040789/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Мастер-класс</div>
+                        <div class="locations__card-text">Мастер-классы для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040789/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Турнир</div>
+                        <div class="locations__card-text">Любительские турниры для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040789/">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-
+                <!--ПАРКУР  -->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Паркур</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Турнир</div>
+                        <div class="locations__card-text">Любительский турнир для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040792/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Мастер-класс</div>
+                        <div class="locations__card-text">Мастер-классы для всех желающих </div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040792/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card locations__card--no-register">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Турнир</div>
+                        <div class="locations__card-text">Любительские турниры для всех желающих</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4040792/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <!-- КУДРИНСКАЯ ПЛОЩАДЬ -->
+              <!--Кудринская площадь -->
               <div class="locations__tab js-tabs-content" data-tab="kudrinskaya">
+                <!--ДЖАМПИНГ -->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
                     <span>ДЖАМПИНГ</span>
@@ -974,8 +875,8 @@
                   <div class="locations__tab-content js-tab-item-content">
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">1 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 1</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–19:35</div>
@@ -984,8 +885,8 @@
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">2 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 2</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:50–20:25</div>
@@ -994,8 +895,8 @@
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">3 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 3</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:40–21:15</div>
@@ -1004,8 +905,8 @@
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">4 Тренировка</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Тренировка 4</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:25–22:00</div>
@@ -1014,16 +915,16 @@
                     </div>
                   </div>
                 </div>
-
+                <!--ПОЛОСА ПРЕПЯТСТВИЙ -->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>ПОЛОСА ПРЕПЯТСТВИЙ</span>
+                    <span>ПОЛОСА ПРЕПЯТСТВИЙ </span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--1 js-tab-item-content">
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Работа площадки в спортивно-интерактивном режиме</div>
+                        <div class="locations__card-title">Старт работы площадки в спортивно-интерактивном режиме</div>
                         <div class="locations__card-text">На площадке будут находиться инструкторы</div>
                       </div>
                       <div class="locations__card-bottom">
@@ -1033,10 +934,10 @@
                     </div>
                   </div>
                 </div>
-
+                <!--Прыжки в длину -->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
-                    <span>ПРЫЖКИ В ДЛИНУ</span>
+                    <span>Прыжки в длину</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content js-tab-item-content">
@@ -1047,7 +948,7 @@
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00</div>
-                        <div class="locations__no-register">Без регистрации</div>
+
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
@@ -1056,8 +957,9 @@
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:30</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__card-time">
+                          <p>19:30</p>
+                        </div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
@@ -1066,8 +968,9 @@
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:25</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__card-time">
+                          <p>20:25</p>
+                        </div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
@@ -1076,8 +979,9 @@
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:45</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__card-time">
+                          <p>20:45</p>
+                        </div>
                       </div>
                     </div>
                     <div class="locations__card locations__card--no-register">
@@ -1086,156 +990,64 @@
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:45</div>
-                        <div class="locations__no-register">Без регистрации</div>
+                        <div class="locations__card-time">
+                          <p>21:45</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <!-- ЛЕОНТЬЕВСКИЙ ПЕРЕУЛОК -->
+              <!-- Леонтьевский переулок -->
               <div class="locations__tab js-tabs-content" data-tab="leontevsky">
+                <!--СТРИТБАСКЕТ -->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
                     <span>СТРИТБАСКЕТ</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
                   </div>
                   <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Любительский турнир для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Турнир</div>
+                        <div class="locations__card-text">Любительский турнир для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–20:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4036103/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Конкурс по броскам для всех желающих</div>
-                        <div class="locations__card-text"></div>
+                        <div class="locations__card-title">Конкурс</div>
+                        <div class="locations__card-text">Конкурс по броскам для всех желающих</div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:00–21:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4036103/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
-                    <div class="locations__card locations__card--no-register">
+                    <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">Свободная игра</div>
+                        <div class="locations__card-title">Свободная игра </div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:00–22:00</div>
+                        <a class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4036103/" target="_blank">Регистрация</a>
                         <div class="locations__no-register">Без регистрации</div>
                       </div>
                     </div>
                   </div>
                 </div>
+
+
               </div>
-
-              <!-- КЛИМЕНТОВСКИЙ ПЕРЕУЛОК -->
+              <!-- Клементовский переулок -->
               <div class="locations__tab js-tabs-content" data-tab="klimentovsky">
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>ТРЕНИРОВКА В ГАМАКАХ</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content js-tab-item-content">
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">1 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00–19:35</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138668/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">2 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:50–20:25</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138675/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">3 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:40–21:15</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138728/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">4 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:25–22:00</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138740/">Регистрация</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="locations__tab-item js-tab-item">
-                  <div class="locations__toggler js-tab-item-toggler">
-                    <span>TRX ТРЕНИРОВКА</span>
-                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
-                  </div>
-                  <div class="locations__tab-content js-tab-item-content">
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">1 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:00–19:35</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138775/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">2 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">19:50–20:25</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138777/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">3 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">20:40–21:15</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138781/">Регистрация</a>
-                      </div>
-                    </div>
-                    <div class="locations__card">
-                      <div class="locations__card-top">
-                        <div class="locations__card-title">4 Тренировка</div>
-                        <div class="locations__card-text"></div>
-                      </div>
-                      <div class="locations__card-bottom">
-                        <div class="locations__card-time">21:25–22:00</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138811/">Регистрация</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+                <!--САЙКЛИНГ -->
                 <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
                     <span>САЙКЛИНГ</span>
@@ -1244,51 +1056,153 @@
                   <div class="locations__tab-content js-tab-item-content">
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">1 Тренировка</div>
+                        <div class="locations__card-title">Тренировка 1</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:00–19:35</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138813/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4036015/">Регистрация</a>
                       </div>
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">2 Тренировка</div>
+                        <div class="locations__card-title">Тренировка 2</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">19:50–20:25</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138892/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026992/">Регистрация</a>
                       </div>
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">3 Тренировка</div>
+                        <div class="locations__card-title">Тренировка 3</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">20:40–21:15</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138903/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026920/">Регистрация</a>
                       </div>
                     </div>
                     <div class="locations__card">
                       <div class="locations__card-top">
-                        <div class="locations__card-title">4 Тренировка</div>
+                        <div class="locations__card-title">Тренировка 4</div>
                         <div class="locations__card-text"></div>
                       </div>
                       <div class="locations__card-bottom">
                         <div class="locations__card-time">21:25–22:00</div>
-                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4138904/">Регистрация</a>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027013/">Регистрация</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Функциональные петли-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Функциональные петли</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content js-tab-item-content">
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 1</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–19:35</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027371/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 2</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:50–20:25</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027002/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 3</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:40–21:15</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026928/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 4</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:25–22:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027025/">Регистрация</a>
+                        <div class="locations__no-register">Без регистрации</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Тренировки в гамаках-->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Тренировки в гамаках</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content js-tab-item-content">
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 1</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:00–19:35</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027374/">Регистрация</a>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 2</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">19:50–20:25</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027004/">Регистрация</a>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 3</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">20:40–21:15</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026961/">Регистрация</a>
+                      </div>
+                    </div>
+                    <div class="locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Тренировка 4</div>
+                        <div class="locations__card-text">Массовая тренировка с инструктором под диджей-сет</div>
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:25–22:00</div>
+                        <a class="locations__card-link" target="_blank" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027028/">Регистрация</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- Ильинский сквер -->
-              <!-- <div class="locations__tab js-tabs-content" data-tab="ilinsky"> -->
+              <div class="locations__tab js-tabs-content" data-tab="ilinsky">
                 <!--Живые шахматы  -->
-                <!-- <div class="locations__tab-item js-tab-item">
+                <div class="locations__tab-item js-tab-item">
                   <div class="locations__toggler js-tab-item-toggler">
                     <span>Живые шахматы</span>
                     <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
@@ -1361,8 +1275,168 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
-              <!-- </div> -->
+                </div>
+                <!--Фан-встречи -->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler js-item-with-slider">
+                    <span>Фан-встречи</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--slider js-tab-item-content">
+                    <div class="js-people-slider-prev locations__slider-arrow">
+                      <img src="img/night/arrow-left.svg" width="42" height="43"/>
+                    </div>
+                    <div class=" swiper-container js-people-slider">
+                      <div class="swiper-wrapper locations__slider-wrapper">
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Венусте Нийонгабо</div>
+                            <img src="img/night/people/nibogo.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">19:00–19:30</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4064093/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Клаудио Каниджа</div>
+                            <img src="img/night/people/kanidzhi.jpg" alt="" class="locations__card-image">
+
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">19:30–20:00</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026963/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Марко Пикадо</div>
+                            <img src="img/night/people/pikado.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">20:00–20:30</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027007/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Радек Билек</div>
+                            <img src="img/night/people/bilek.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">20:00–20:30</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027007/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Йохан Нунгарай</div>
+                            <img src="img/night/people/johan.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">20:00–20:30</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027007/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Арон Джосеф</div>
+                            <img src="img/night/people/aaron.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">20:00–20:30</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027007/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">АЛЕКСЕЙ ЯГУДИН</div>
+                            <img src="img/night/people/yagudin.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">20:30–21:00</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4027361/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Евгений Плющенко</div>
+                            <img src="img/night/people/plushenko.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">21:00–21:20</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026919/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Яна Рудковская</div>
+                            <img src="img/night/people/rudkovskaya.jpg" alt="" class="locations__card-image">
+
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">21:00–21:20</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4026919/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide locations__card">
+                          <div class="locations__card-top">
+                            <div class="locations__card-title">Артем Дзюба</div>
+                            <img src="img/night/people/dzuba.jpg" alt="" class="locations__card-image">
+                          </div>
+                          <div class="locations__card-bottom">
+                            <div class="locations__card-time">21:20–21:45</div>
+                            <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4062371/">Регистрация</a>
+                            <div class="locations__no-register">Регистрация скоро откроется</div>
+                          </div>
+                        </div>
+
+
+
+
+
+                        <div class="">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="js-people-slider-next locations__slider-arrow">
+                      <img src="img/night/arrow-right.svg" width="42" height="43"/>
+                    </div>
+                  </div>
+                </div>
+                <!--Автограф-сессии -->
+                <div class="locations__tab-item js-tab-item">
+                  <div class="locations__toggler js-tab-item-toggler">
+                    <span>Автограф-сессии</span>
+                    <img class="locations__arrow" src="img/night/icons/arrow.svg" alt="" width="39" height="39">
+                  </div>
+                  <div class="locations__tab-content locations__tab-content--3 js-tab-item-content">
+                    <div class="swiper-slide locations__card">
+                      <div class="locations__card-top">
+                        <div class="locations__card-title">Герман Рубцов, ХК «Спартак»</div>
+                        <img src="img/night/people/german.jpg" alt="" class="locations__card-image">
+                      </div>
+                      <div class="locations__card-bottom">
+                        <div class="locations__card-time">21:45–22:10</div>
+                        <a target="_blank" class="locations__card-link" href="https://noch-moskovskogo-sporta.timepad.ru/event/4072477/">Регистрация</a>
+                        <div class="locations__no-register">Регистрация скоро откроется</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </section>
