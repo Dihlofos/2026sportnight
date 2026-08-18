@@ -1,6 +1,10 @@
 .special-page {
   padding: 6.5rem 0 6.8rem;
 
+  @media (max-width: $mobile) {
+    padding: 3rem 0 4rem;
+  }
+
   .container {
     position: relative;
   }
@@ -25,6 +29,12 @@
     top: -4.5rem;
     right: -35rem;
     z-index: -1;
+
+    @media (max-width: $mobile) {
+      top: 12.5rem;
+      right: 0rem;
+      width: 37.5rem;
+    }
   }
 
   &__title {
@@ -32,12 +42,24 @@
     margin: 0 0 0.3rem;
     font-size: 10rem;
     line-height: 1.01;
+
+    @media (max-width: $tablet) {
+      font-size: 7rem;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 5rem;
+    }
   }
 
   &__subtitle {
     font-size: 2.4rem;
     line-height: 1.1;
     margin: 0 0 4.4rem;
+
+    @media (max-width: $tablet) {
+      font-size: 2rem;
+    }
 
   }
 
@@ -52,6 +74,14 @@
     p:not(:last-child) {
       margin: 0 0 1.2rem;
     }
+
+    @media (max-width: $tablet) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: $mobile) {
+      margin: 0 0 3.1rem;
+    }
   }
 
   &__logos {
@@ -59,6 +89,11 @@
     align-items: center;
     gap: 2.7rem;
     margin: 0 0 8.6rem;
+
+    @media (max-width: $tablet) {
+      flex-wrap: wrap;
+      margin: 0px 0 4.6rem;
+    }
 
   }
 
