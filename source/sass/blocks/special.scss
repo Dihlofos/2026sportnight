@@ -1,6 +1,10 @@
 .special {
   position: relative;
-  padding-bottom: 13.8rem;
+  padding-bottom: 20rem;
+
+  @media (max-width: $tablet) {
+    padding-bottom: 15rem;
+  }
 
   @media (max-width: $tablet) {
     padding-bottom: 5rem;

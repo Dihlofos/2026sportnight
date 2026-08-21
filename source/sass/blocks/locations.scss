@@ -1,13 +1,9 @@
 .locations {
   position: relative;
-  padding: 11.9rem 0 10rem;
+  padding: 0 0 10rem;
 
   @media (max-width: $tablet) {
-    padding: 11.9rem 0 0;
-  }
-
-  @media (max-width: $mobile) {
-    padding: 3.9rem 0 0;
+    padding: 0;
   }
 
   &__decor {
